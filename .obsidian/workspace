@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "057943a650d79462",
+    "type": "split",
+    "children": [
+      {
+        "id": "85d2bede85b2b399",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "018fc89b309cbc67",
+    "type": "split",
+    "children": [
+      {
+        "id": "f03cced2d39c4737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65bf3f8d154dfeab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "14ad6e59f3c4c099",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce91601ae8e11df5",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaea698c55df515e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27effd947349d57e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3ddcbe774a6a7aa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "85d2bede85b2b399",
+  "lastOpenFiles": [
+    "Fleeting/Work/Server Admin Useful Commands.md",
+    "Fleeting/Work/EKS 管理筆記.md",
+    "Fleeting/Distributed System Note.md",
+    "Fleeting/Cloud Native Technologies Cloud, VM, Container, IaC, and Microservices.md",
+    "Fleeting/AWS Certified Developer - Associate 2020 筆記.md",
+    "Fleeting/新世代資料中心的發展趨勢與自動化管理.md",
+    "Fleeting/軟體定義現代化資料中心 - 擁抱數位轉型引領未來變革.md",
+    "Elasticsearch Cluster 淺析.md",
+    "FastAPI 使用筆記.md",
+    "Python 中的 Memory Map.md"
+  ]
+}
