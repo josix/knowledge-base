@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5129fa68be84dce2",
+        "id": "8117f8d6e4ca48e4",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+            "mode": "source"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "3c13fbc34744acbf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tokens.md",
+            "file": "match query.md",
             "mode": "source"
           }
         }
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tokens.md",
+                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tokens.md"
+                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
               }
             }
           },
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tokens.md",
+                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,16 +136,16 @@
     "direction": "horizontal",
     "width": 194
   },
-  "active": "5129fa68be84dce2",
+  "active": "8117f8d6e4ca48e4",
   "lastOpenFiles": [
-    "tokens.md",
-    "text field.md",
-    "terms query.md",
+    "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+    "match query.md",
+    "主管.md",
     "term query.md",
+    "term level query.md",
     "StandardAnalyzer.md",
     "Search Engine.md",
     "Pydantic validator.md",
-    "Pasted image 20210911011816.png",
     "numeric fields.md",
     "minimum_should_match.md"
   ]
