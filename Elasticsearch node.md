@@ -1,0 +1,1 @@
+- Node 是 [[Elasticsearch]] 的執行個體，[[Elasticsearch cluster]] 中的 nodes 會選出一個 node 作為 [[Elasticsearch master node]]。

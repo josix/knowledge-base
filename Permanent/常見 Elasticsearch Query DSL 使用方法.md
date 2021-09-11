@@ -1,12 +1,10 @@
 ---
 tags: Tool Sharing, draft
 ---
-# 常見 Elasticsearch Query DSL 使用方法
-[TOC]
+# 常見 [[Elasticsearch]] Query DSL 使用方法
 
----
 ## 先備知識
-### Elasticsearch Query DSL (Domain Specific Language)
+### [[Elasticsearch Query DSL]] (Domain Specific Language)
 在 Elasticsearch 中執行搜尋，除了透過 `GET /_search` 帶入 query string 以外，Elasticsearch 也有提供較完整功能、彈性的 Query Language -- DSL (Domain-Specific Language) 用於面對各式各樣的搜尋情境。
 
 DSL 由 JSON request body 組成，由兩種子句（clause）所組成：
@@ -21,7 +19,7 @@ DSL 由 JSON request body 組成，由兩種子句（clause）所組成：
 在此 Context，Elasticsearch 主要完成兩個工作：
 
 1. 決定哪些文件是有匹配到的，透過計算 TF-IDF、BM25 等模型分數加上 Boosting 加權，得到有匹配的文件。
-2. 計算匹配到的文件其相關性分數（relevance scores），相關性分數會在回傳時帶入至 `_score` 欄位。
+2. 計算匹配到的文件其[[相關性分數]]（relevance scores），[[相關性分數]]會在回傳時帶入至 `_score` 欄位。
 
 每當有 `query` 參數帶入至 `search` API 的查詢子句時，query context 就會生效。
 

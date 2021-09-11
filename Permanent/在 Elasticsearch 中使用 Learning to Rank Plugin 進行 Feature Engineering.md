@@ -1,7 +1,7 @@
 ---
 tags: Tool Sharing
 ---
-# 在 Elasticsearch 中使用 Learning to Rank Plugin 進行 Feature Engineering
+# 在 [[Elasticsearch]] 中使用 Learning to Rank Plugin 進行 Feature Engineering
 
 [TOC]
 
@@ -19,7 +19,7 @@ Learning to Rank 經常使用在資訊檢索（Information Retrieval）的情境
 - 協助透過 Elasticsearch 既有功能建立特徵
 - 於 Elasticsearch 既有功能上建立其他特徵工程（Feature Engineering）
 - 紀錄特徵值以利下游任務套用如 XGBoost, LightGBM, Ranklib 等不同模型訓練
-- 接受訓練完成的模型，透過 Elasticsearch LTR 自定義的 DSL primitive 使該模型可以應用於 Elasticsearch 搜尋時使用，產出較好的排序結果。
+- 接受訓練完成的模型，透過 Elasticsearch LTR 自定義的 [[Elasticsearch Query DSL]] primitive 使該模型可以應用於 Elasticsearch 搜尋時使用，產出較好的排序結果。
 
 特別要提到的是，**Elasticsearch LTR 不提供模型訓練的功能**，由於模型種類繁多並且效能依照不同領域也會有不同的呈現，因此 Elasticsearch LTR 保留此彈性讓使用者可以自行使用自己偏好的模型。另外，**Elasticsearch LTR 也不提供 Judgement List 的生成**，此列表也需要各個領域的專家進行標記，因此保留讓使用者自行建立。
 ## 如何使用 Elasticsearch Learning to Rank (LTR) Plugin

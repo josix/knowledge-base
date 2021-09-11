@@ -1,0 +1,1 @@
+- Elasticsearch Type 相似 RDB 中的 Table

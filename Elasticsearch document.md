@@ -1,0 +1,1 @@
+- Document 對應 RDB 中 Row 的存在
