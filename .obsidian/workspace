@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8117f8d6e4ca48e4",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
-            "mode": "source"
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "3c13fbc34744acbf",
+        "id": "82fcb8fb5133da8c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "match query.md",
+            "file": "主管.md",
             "mode": "source"
           }
         }
@@ -89,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+                "file": "主管.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
+                "file": "主管.md"
               }
             }
           },
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+                "file": "主管.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +123,17 @@
     "direction": "horizontal",
     "width": 194
   },
-  "active": "8117f8d6e4ca48e4",
+  "active": "82fcb8fb5133da8c",
   "lastOpenFiles": [
-    "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
-    "match query.md",
     "主管.md",
+    "回饋.md",
+    "一對一會議.md",
+    "match query.md",
+    "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
     "term query.md",
     "term level query.md",
     "StandardAnalyzer.md",
     "Search Engine.md",
-    "Pydantic validator.md",
-    "numeric fields.md",
-    "minimum_should_match.md"
+    "Pydantic validator.md"
   ]
 }
