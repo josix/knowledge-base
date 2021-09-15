@@ -118,15 +118,15 @@
   },
   "active": "182866f5cfdaeca7",
   "lastOpenFiles": [
-    "Pydantic Field Type.md",
+    "minimum_should_match.md",
+    "主管.md",
+    "terms query.md",
+    "text field.md",
+    "Permanent/[讀書筆記] - 原子習慣.md",
+    "Permanent/搜尋引擎架構的演進.md",
     "resting elevation.md",
     "Pydantic validator.md",
     "Pydantic Model Config.md",
-    "Pydantic Model.md",
-    "Pydantic Field function.md",
-    "Pydantic.md",
-    "Pydantic BaseModel.md",
-    "未命名.md",
-    "terms query.md"
+    "Pydantic Model.md"
   ]
 }
