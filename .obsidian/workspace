@@ -7,8 +7,11 @@
         "id": "182866f5cfdaeca7",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "elevation.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "elevation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "elevation.md"
+              }
             }
           },
           {
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "elevation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +125,15 @@
   },
   "active": "182866f5cfdaeca7",
   "lastOpenFiles": [
+    "elevation.md",
+    "surface.md",
+    "density independent pixel.md",
+    "Elasticsearch.md",
     "minimum_should_match.md",
     "主管.md",
     "terms query.md",
     "text field.md",
     "Permanent/[讀書筆記] - 原子習慣.md",
-    "Permanent/搜尋引擎架構的演進.md",
-    "resting elevation.md",
-    "Pydantic validator.md",
-    "Pydantic Model Config.md",
-    "Pydantic Model.md"
+    "Permanent/搜尋引擎架構的演進.md"
   ]
 }
