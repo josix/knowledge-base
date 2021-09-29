@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "182866f5cfdaeca7",
+        "id": "195a2fbfacb9c141",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "elevation.md",
+            "file": "density independent pixel.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elevation.md",
+                "file": "density independent pixel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elevation.md"
+                "file": "density independent pixel.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elevation.md",
+                "file": "density independent pixel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,19 +121,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 194
+    "width": 272
   },
-  "active": "182866f5cfdaeca7",
+  "active": "195a2fbfacb9c141",
   "lastOpenFiles": [
-    "elevation.md",
-    "surface.md",
     "density independent pixel.md",
-    "Elasticsearch.md",
-    "minimum_should_match.md",
-    "主管.md",
-    "terms query.md",
-    "text field.md",
+    "scalable pixel.md",
+    "pixel density.md",
+    "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+    "Permanent/使用 Unix 標準的密碼管理工具 pass (password-store) 管理密碼.md",
+    "Permanent/使用 ulimit, pam_limits.so 管理系統資源.md",
+    "Permanent/使用 Docker 建置基本 Prometheus、Grafana 監控伺服器檢康狀態.md",
+    "Permanent/在 Elasticsearch 中使用 Learning to Rank Plugin 進行 Feature Engineering.md",
     "Permanent/[讀書筆記] - 原子習慣.md",
-    "Permanent/搜尋引擎架構的演進.md"
+    "terms query.md"
   ]
 }
