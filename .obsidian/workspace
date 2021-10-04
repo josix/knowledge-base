@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+            "file": "PyConTW21 Infra Squad Retro.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+            "file": "PyConTW21 Infra Squad Retro.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+                "file": "PyConTW21 Infra Squad Retro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
+                "file": "PyConTW21 Infra Squad Retro.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+                "file": "PyConTW21 Infra Squad Retro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 272
   },
-  "active": "195a2fbfacb9c141",
+  "active": "982ccf20acdb9c96",
   "lastOpenFiles": [
+    "PyConTW21 Infra Squad Retro.md",
+    "PyConTW21 Infra Squad Review.md",
+    "Permanent/[讀書筆記] - 原子習慣.md",
+    "BM25.md",
     "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
+    "Design Pattern - Factory Pattern.md",
     "Permanent/使用 Unix 標準的密碼管理工具 pass (password-store) 管理密碼.md",
     "Permanent/使用 Docker 建置基本 Prometheus、Grafana 監控伺服器檢康狀態.md",
     "Permanent/使用 cgroups 進行資源管理.md",
-    "Permanent/在 Elasticsearch 中使用 Learning to Rank Plugin 進行 Feature Engineering.md",
-    "PECOS.md",
-    "extreme multilabel ranking.md",
-    "scalable pixel.md",
-    "density independent pixel.md",
-    "pixel density.md"
+    "Permanent/在 Elasticsearch 中使用 Learning to Rank Plugin 進行 Feature Engineering.md"
   ]
 }
