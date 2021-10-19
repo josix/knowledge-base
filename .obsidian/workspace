@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dialog.md",
+            "file": "Pytest.fixture.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dialog.md",
+            "file": "Pytest.fixture.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dialog.md",
+                "file": "Pytest.fixture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dialog.md"
+                "file": "Pytest.fixture.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dialog.md",
+                "file": "Pytest.fixture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 272
   },
-  "active": "982ccf20acdb9c96",
+  "active": "195a2fbfacb9c141",
   "lastOpenFiles": [
+    "Pytest.fixture.md",
+    "軟體測試.md",
+    "pytest.faq.md",
+    "[pytest] fixture.md",
     "dialog.md",
     "elevation.md",
     "導師.md",
     "職涯.md",
     "聆聽.md",
-    "主管.md",
-    "回饋.md",
-    "一對一會議.md",
-    "PECOS.md",
-    "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
+    "主管.md"
   ]
 }
