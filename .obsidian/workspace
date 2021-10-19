@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "195a2fbfacb9c141",
+        "id": "77c479c2f8fe7053",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Pytest.fixture.md",
-            "mode": "source"
-          }
-        },
-        "group": "25d332c181570e5b"
-      },
-      {
-        "id": "982ccf20acdb9c96",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Pytest.fixture.md",
-            "mode": "preview"
-          }
-        },
-        "group": "25d332c181570e5b"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pytest.fixture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pytest.fixture.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pytest.fixture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,23 +110,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 272
   },
-  "active": "195a2fbfacb9c141",
+  "active": "77c479c2f8fe7053",
   "lastOpenFiles": [
+    "pytest.md",
     "Pytest.fixture.md",
-    "軟體測試.md",
     "pytest.faq.md",
+    "Coverage.py.md",
+    "coverage.faq.md",
+    "pylint.faq.md",
+    "pytest.quick_question.md",
+    "軟體測試.md",
     "[pytest] fixture.md",
-    "dialog.md",
-    "elevation.md",
-    "導師.md",
-    "職涯.md",
-    "聆聽.md",
-    "主管.md"
+    "dialog.md"
   ]
 }
