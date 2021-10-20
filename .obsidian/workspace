@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "057943a650d79462",
+    "id": "d239aa2c0d2bc064",
     "type": "split",
     "children": [
       {
-        "id": "77c479c2f8fe7053",
+        "id": "74378a8a6a8b9f78",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "LaTex Cheat Sheet.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LaTex Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LaTex Cheat Sheet.md"
+              }
             }
           },
           {
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LaTex Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +124,17 @@
     "direction": "horizontal",
     "width": 272
   },
-  "active": "77c479c2f8fe7053",
+  "active": "74378a8a6a8b9f78",
   "lastOpenFiles": [
+    "LaTex Cheat Sheet.md",
+    "PECOS.md",
+    "相關性分數.md",
+    "extreme multilabel ranking.md",
     "pytest.md",
     "Pytest.fixture.md",
     "pytest.faq.md",
     "Coverage.py.md",
     "coverage.faq.md",
-    "pylint.faq.md",
-    "pytest.quick_question.md",
-    "軟體測試.md",
-    "[pytest] fixture.md",
-    "dialog.md"
+    "pylint.faq.md"
   ]
 }
