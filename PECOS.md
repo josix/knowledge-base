@@ -1,13 +1,14 @@
 ## PECOS 是什麼
-PECOS 是 Amazon 於 2021 年提出的模型框架，用於解決 [[extreme multilabel ranking]] 問題。
+Prediction for Enormous and Correlated Output Space, PECOS 是 Amazon 於 2021 年提出的模型框架，用於解決 [[extreme multilabel ranking]] 問題。其善用標記資料 output Space 具有一定的相關性（correlation），透過 semantic indexing 分群和有效率的匹配最適合的 cluster 方法有效降低了 output space 龐大所導致的長尾問題。
 
 ## PECOS Model
-PECOS 模型框架包含三個步驟：
-- Indexing Step： PECOS 會將龐大的 labels 進行分群，每一群都代表一個主題（Topic）。
-- Matching Step： PECOS 針對給定的 input instance 找尋其符合的主題。
-- Rankiing Step：在匹配到的主題當中對其中的 Label 基於其特徵以進行排序
+PECOS 模型框架包含三個階段：
+- Indexing Phase： PECOS 會將龐大的 labels 進行分群（semantic indexing），每一群都代表一個主題（Topic）。
+- Matching Phase： PECOS 針對給定的 input instance 找尋其符合的主題。透過此部可以大幅下降 output space 的大小
+- Rankiing Phase：在匹配到的主題當中對其中的 Label 基於其特徵以進行排序
 ![[Pasted image 20210930222612.png]]
 
+在 indexing phase 和 matching phase 可以有效減少長尾效應所導致的資料稀疏問題。
 ## Product Retrieval
 PECOS 模型應用於商品檢索時所使用的模型是 XR-Linear，此模型是基於 B-ary Tree，每個父節點的子節點數量最多為 B 個，因此第一層以下包含了所有的 label 而在下一層邊會將所有的 label 分為 B 個部分，依此類推。節點之間的邊是透過特徵計算機率分數來取權重，而在尋找最符合的 label 時會計算路徑機率最高的葉節點作為最終選定的 label，這個過程會透過 [[beam search]] 以提高效率。而另外也會透過設定 weight threshold 以進行修剪（weight pruning）。
 
