@@ -26,7 +26,7 @@ POST /mybooks/_search
   }
 }
 ```
-- 在 term query 執行時，所有欄位中有匹配到 term 的文件都會被搜集起來，並基於 [[Lucene]] 中的 [[BM25]] 模型算出 [[相關性分數]]，並依此分數排序。
+- 在 term query 執行時，所有欄位中有匹配到 term 的文件都會被搜集起來，並基於 [[Lucene]] 中的 [[Okapi BM25]] 模型算出 [[相關性分數]]，並依此分數排序。
 - 檢索的[[相關性分數]]不太重要時，可以在 filter 中使用 term query 即可，以達到較好的效率，常見可用於過濾權限、數值欄位、數值範圍等。
 - [[keyword field]] 和 [[text field]] 經過 [[Elasticsearch Analyzer]] 處理後存放於 [[Elasticsearch index]] 的內容
 | Mapping Index     | Analyzer             | Tokens                                 |

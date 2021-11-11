@@ -64,7 +64,7 @@ POST /mybooks/_search
   }
 }
 ```
-在 term query 執行時，所有欄位中有匹配到 term 的文件都會被搜集起來，並基於 [[Lucene]] 中的 [[BM25]] 模型算出 [[相關性分數]]，並依此分數排序。
+在 term query 執行時，所有欄位中有匹配到 term 的文件都會被搜集起來，並基於 [[Lucene]] 中的 [[Okapi BM25]] 模型算出 [[相關性分數]]，並依此分數排序。
 
 若要在 [[Filter Context]] 下執行 term query, 只需要將 term 放進 [[bool query]] filter 參數中：
 ```

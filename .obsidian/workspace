@@ -9,8 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LaTex Cheat Sheet.md",
+            "file": "Okapi BM25.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "1ee5b072cd5279cc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Okapi BM25.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LaTex Cheat Sheet.md",
+                "file": "Okapi BM25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LaTex Cheat Sheet.md"
+                "file": "Okapi BM25.md"
               }
             }
           },
@@ -103,18 +114,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LaTex Cheat Sheet.md",
+                "file": "Okapi BM25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "6d8b38ef81013084",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ],
@@ -124,17 +127,17 @@
     "direction": "horizontal",
     "width": 272
   },
-  "active": "74378a8a6a8b9f78",
+  "active": "1ee5b072cd5279cc",
   "lastOpenFiles": [
-    "LaTex Cheat Sheet.md",
+    "Okapi BM25.md",
     "PECOS.md",
-    "相關性分數.md",
-    "extreme multilabel ranking.md",
-    "pytest.md",
-    "Pytest.fixture.md",
-    "pytest.faq.md",
-    "Coverage.py.md",
-    "coverage.faq.md",
-    "pylint.faq.md"
+    "dialog.md",
+    "反芻思考.md",
+    "keyword field.md",
+    "term query.md",
+    "term level query.md",
+    "surface.md",
+    "StandardAnalyzer.md",
+    "shadow.md"
   ]
 }
