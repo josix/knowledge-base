@@ -6,6 +6,7 @@ tags: search, tech
 
 Okapi BM25 是一個文字探勘的模型之一，也是 [[Elasticsearch]] 預設的 [[Elasticsearch similarity]] 演算法之一。
 
+## 
 
 
 ## 在 Elasticsearch 中的 Okapi BM25
