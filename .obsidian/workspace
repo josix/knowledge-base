@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "22146bda8dd0c89f",
+        "id": "b95901f6469fd608",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -12,10 +12,11 @@
             "file": "Okapi BM25.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "35267edd98993c75"
       },
       {
-        "id": "995a609cb4d7a6af",
+        "id": "7da4dba1665e4ccb",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -23,7 +24,8 @@
             "file": "Okapi BM25.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "35267edd98993c75"
       }
     ],
     "direction": "vertical"
@@ -71,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ce91601ae8e11df5",
@@ -116,7 +119,7 @@
               "state": {
                 "file": "Okapi BM25.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -125,19 +128,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 272,
+    "collapsed": true
   },
-  "active": "22146bda8dd0c89f",
+  "active": "b95901f6469fd608",
   "lastOpenFiles": [
     "Okapi BM25.md",
+    "LaTex Cheat Sheet.md",
+    "boost.md",
+    "過度猶豫不決.md",
+    "推薦系統.md",
+    "未命名.md",
+    "PECOS.md",
     "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
     "VueJS.md",
-    "焦慮.md",
-    "設計語言.md",
-    "PECOS.md",
-    "dialog.md",
-    "反芻思考.md",
-    "keyword field.md",
-    "term query.md"
+    "焦慮.md"
   ]
 }
