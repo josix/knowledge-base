@@ -13,10 +13,10 @@
             "mode": "source"
           }
         },
-        "group": "35267edd98993c75"
+        "group": "f5b6030d3489326c"
       },
       {
-        "id": "7da4dba1665e4ccb",
+        "id": "16c8601517f856d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -25,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "35267edd98993c75"
+        "group": "f5b6030d3489326c"
       }
     ],
     "direction": "vertical"
@@ -134,6 +134,7 @@
   "active": "b95901f6469fd608",
   "lastOpenFiles": [
     "Okapi BM25.md",
+    "Elasticsearch primary shard.md",
     "LaTex Cheat Sheet.md",
     "boost.md",
     "過度猶豫不決.md",
@@ -141,7 +142,6 @@
     "未命名.md",
     "PECOS.md",
     "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
-    "VueJS.md",
-    "焦慮.md"
+    "VueJS.md"
   ]
 }
