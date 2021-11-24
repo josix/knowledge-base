@@ -49,6 +49,104 @@ $$
 - 在搜尋 request 加入 `?search_type=dfs_query_then_fetch`，這會首先搜集所有分散文件的詞頻（Distributed term frequency, DFS = Distributed frequency search），此結果會和設定只有一個 shard 的回傳 [[相關性分數]] 結果一樣，然而差別在於額外的往返在速度重要過搜尋結果的情境下是不必要的，另外在文件數量增加時這麼做會搜尋排序並不會有所提升反而犧牲效能。
 
 ## 於 Elasticsearch 中調整 Okapi BM25 參數
-### Rank API
-### Explain API
+在進行調整 $k_1$ 和 $b$ 參數之前，還有很多修正是可以讓 Elasticsearch 的搜尋結果更貼近使用者意圖：
+- 在 query 上可以更加精準，如增加 [[match_phrase query]]、[[bool query]] 。
+-  加入同義詞，[[Elasticsearch Analyzer]] 中加入 [[synonym_graph filter]]，使搜尋自動將 query 轉換成帶入同義詞的 phrase query，例如 `ny` 換轉換為搜尋 `(ny OR ("new york"))`，conjunction 的邏輯也是可行的只需要在 query 中加入 `"auto_generate_synonyms_phrase_query" : false`，例如 `ny city` query  會被轉換為搜尋 `(ny OR (new AND york)) city` 搜尋。
+- 加入 [[fuzzy query]] 、autosuggestions、stemming 等增加匹配到的召回的文件數量。
+- 使用 [[function score query]] 調整 query 的算分方式，進行微調。
 
+若這些都調教過，調整 $k_1$ 和 $b$ 參數才是加強搜尋結果的最後一哩路。首先要認知到並沒有最佳的唯一的 $k_1$ 和 $b$ 組合，需視使用情境以進行調整：
+
+1. 首先要先知道 $k_1$ 和 $b$ 的可以調整範圍區間為何，在過去的實驗中證實較好的 $k_1$ 和 $b$ 的範圍分別是：
+	- $k_1$ 常見設定在 0 - 3 之間，設定更高也是可行的，然而過去的實驗多數是設定在 0.5 - 2 之間有比較好的結果，調整方式多為增減 0.1 - 0.2 。
+	- $b$ 的範圍區間為 0 - 1 之間，多數調整的方式為增減 0.1，多數實驗顯示將 $b$ 設定在 0.3 - 0.9 有較好的結果。
+2. 接著要了解自己的搜尋情境適合什麼樣的參數組合：
+	- 針對 $k_1$ 需要了解的是搜尋的情境是否認為匹配到的文章需要設定 term frequency 的飽和度，即使用者意圖是否會認為單篇文章出現越大量匹配到的詞會是好的結果，若搜尋的 corpus 多為長文如書籍、文章等，便有可能有較高的 term frequency 那麼 $k_1$ 便需要設定高一些才能顯現差異性，然而若用於搜尋商品敘述等，則頻繁出現匹配的 term 是一件比較奇怪的事情，則可以將 $k_1$ 調低一些。
+	- 針對 $b$ 需要認知到搜尋的情境是否考慮到搜尋的情境會希望如何處理長文的搜尋結果，並且考慮文章的長短要如何影響詞的相關性。例如針對特定專長的技術文章，往往文章內容是有針對性的那麼文章的長度不論多長會是可以容忍的，反之文本的內容多是品質參差不齊的內文的話，越長的文章可能會是垃圾資訊或是無關的資訊，則可以調高 $b$ 以進行扣分。
+
+### Explain API
+在 Elasticsearch 中提供了 Explain API 解釋為什麼搜尋結果的給分是怎麼給的，只需要在一般的 query endpoint 後再加入 `_explain` 即可，例如
+```
+GET /people3/_doc/4/_explain
+{
+  "query": {
+    "match": {
+      "title": "shane connelly"
+    }
+  }
+}
+```
+會得到如下結果：
+```
+{
+  "_index": "people3",
+  "_type": "_doc",
+  "_id": "4",
+  "matched": true,
+  "explanation": {
+    "value": 0.71437943,
+    "description": "sum of:",
+    "details": [
+        {
+          "value": 0.102611035,
+          "description": "weight(title:shane in 3) [PerFieldSimilarity], result of:",
+          "details": [
+            {
+              "value": 0.102611035,
+              "description": "score(doc=3,freq=1.0 = termFreq=1.0\n), product of:",
+              "details": [
+                {
+                  "value": 0.074107975,
+                  "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                  "details": [
+                    {
+                      "value": 6,
+                      "description": "docFreq",
+                      "details": []
+                    }, {
+                      "value": 6,
+                      "description": "docCount",
+                      "details": []
+                    }
+                  ]
+				},
+				{
+                  "value": 1.3846153,
+                  "description": "tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                  "details": [
+                    {
+                      "value": 1,
+                      "description": "termFreq=1.0",
+                      "details": []
+                    },
+					{
+                      "value": 5,
+					  "description": "parameter k1",
+					  "details": []
+					},
+					{
+					  "value": 1,
+					  "description": "parameter b",
+					  "details": []
+				    },
+					{
+					  "value": 3,
+					  "description": "avgFieldLength",
+					  "details": []
+					},
+					{
+					  "value": 2,
+					  "description": "fieldLength",
+					  "details": []
+				    }
+				  ]
+				}
+			  ]
+		    }
+	      ]
+        },
+  // others terms result...
+  ]
+}
+```
+可以清楚地看到每個 query term 會是怎麼在 BM25 中計算出來，包含參數的設定、IDF 值為多少，tfNorm 值為多少等，而 `_explain` 是 debug 工具，切記要在 production 模式關閉。
