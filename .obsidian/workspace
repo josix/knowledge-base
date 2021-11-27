@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Okapi BM25.md",
+            "file": "推薦系統.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Okapi BM25.md",
+            "file": "推薦系統.md",
             "mode": "preview"
           }
         },
@@ -73,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ce91601ae8e11df5",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Okapi BM25.md",
+                "file": "推薦系統.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Okapi BM25.md"
+                "file": "推薦系統.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Okapi BM25.md",
+                "file": "推薦系統.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,15 +132,15 @@
   },
   "active": "b95901f6469fd608",
   "lastOpenFiles": [
+    "推薦系統.md",
+    "內容過濾.md",
     "Okapi BM25.md",
     "Elasticsearch primary shard.md",
     "LaTex Cheat Sheet.md",
     "boost.md",
     "過度猶豫不決.md",
-    "推薦系統.md",
     "未命名.md",
     "PECOS.md",
-    "Permanent/常見 Elasticsearch Query DSL 使用方法.md",
-    "VueJS.md"
+    "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
   ]
 }
