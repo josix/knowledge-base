@@ -28,6 +28,8 @@ tags: latex, cheat sheet
     - $$\mathop{\arg\max}_\theta$$
   - 分數
     - $$\frac{x}{y}$$
+  - Norm
+    - $$\|x\|$$
 
 ## Syntax
 
