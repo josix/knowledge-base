@@ -16,10 +16,15 @@ tags: latex, cheat sheet
   - 子集
 
     - $$\subset$$
+    - $$\subseteq$$
 
   - 映射
 
     - $$\rightarrow$$
+
+- Logic notation
+	- For all
+		- $$\forall$$
 
 - 運算符號
   - 求和
