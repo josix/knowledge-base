@@ -23,7 +23,13 @@ tags: latex, cheat sheet
     - $$\rightarrow$$
 
 - Logic notation
-	- For all
+	- logical and 
+		- $$\land$$
+	- set difference
+		- $$\setminus$$
+	- difinition
+		-  $$\coloneqq$$
+	- for all
 		- $$\forall$$
 
 - 運算符號
