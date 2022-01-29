@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b95901f6469fd608",
+        "id": "f614aa4f07e87c49",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "推薦系統.md",
-            "mode": "source"
+            "file": "Elasticsearch primary shard.md",
+            "mode": "source",
+            "source": false
           }
-        },
-        "group": "f5b6030d3489326c"
-      },
-      {
-        "id": "16c8601517f856d6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "推薦系統.md",
-            "mode": "preview"
-          }
-        },
-        "group": "f5b6030d3489326c"
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "推薦系統.md",
+                "file": "Elasticsearch primary shard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "推薦系統.md"
+                "file": "Elasticsearch primary shard.md"
               }
             }
           },
@@ -116,31 +104,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "推薦系統.md",
+                "file": "Elasticsearch primary shard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 272,
-    "collapsed": true
+    "width": 272
   },
-  "active": "b95901f6469fd608",
+  "active": "f614aa4f07e87c49",
   "lastOpenFiles": [
-    "推薦系統.md",
-    "內容過濾.md",
-    "Okapi BM25.md",
     "Elasticsearch primary shard.md",
-    "LaTex Cheat Sheet.md",
-    "boost.md",
-    "過度猶豫不決.md",
-    "未命名.md",
-    "PECOS.md",
-    "Permanent/常見 Elasticsearch Query DSL 使用方法.md"
+    "軟體測試.md",
+    "焦慮.md",
+    "聆聽.md",
+    "推薦系統.md",
+    "逃避因應.md",
+    "相關性分數.md",
+    "害怕建議與批評.md",
+    "協同過濾.md",
+    "貝氏定理.md"
   ]
 }
