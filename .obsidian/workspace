@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Elasticsearch primary shard.md",
+            "file": "逃避因應.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elasticsearch primary shard.md",
+                "file": "逃避因應.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elasticsearch primary shard.md"
+                "file": "逃避因應.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elasticsearch primary shard.md",
+                "file": "逃避因應.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,15 +118,14 @@
   },
   "active": "f614aa4f07e87c49",
   "lastOpenFiles": [
+    "逃避因應.md",
+    "相關性分數.md",
+    "害怕建議與批評.md",
     "Elasticsearch primary shard.md",
     "軟體測試.md",
     "焦慮.md",
     "聆聽.md",
     "推薦系統.md",
-    "逃避因應.md",
-    "相關性分數.md",
-    "害怕建議與批評.md",
-    "協同過濾.md",
-    "貝氏定理.md"
+    "協同過濾.md"
   ]
 }
