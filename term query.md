@@ -1,3 +1,7 @@
+---
+title: "term query"
+date: 2022-05-06T02:11
+---
 - term query 是 [[term level query]] 用於檢索欄位完全匹配給定 term 的[[Elasticsearch document]]，並且執行相較快速
 - term query 相似 SQL 中的 [[equal query]]
 - term query 執行的格式如下：

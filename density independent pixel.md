@@ -1,3 +1,7 @@
+---
+title: "density independent pixel"
+date: 2022-05-06T02:06
+---
 [[density independent pixel]] 又稱 dp（or dip），是 Android 設備介面尺寸單位，為了解決不同設備上 [[pixel density]] 不同會顯示不同大小的介面，而發明的統一尺寸單位。
 
 Android 設定在 160 ppi 的設備上，1dp 為 1px。而在其他不同的 ppi 設備上呈現相同的介面時，相同 1dp 會調整呈現的像素數量，如在 320 ppi 的設備上，由於會若只呈現 1px 的話畫面相較 160ppi 會縮小一倍，因此相同 1dp 在 320 ppi 的設備上會呈現 2px，以追求統一的大小呈現。

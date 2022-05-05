@@ -1,3 +1,7 @@
+---
+title: "pytest.faq"
+date: 2022-05-06T02:10
+---
 ## FAQ
 1. Question. 如何在 [[pytest]] 中顯示 `print` 結果：
 	Ans. 在指令中帶入 `-s`(`--capture=no`) 選項

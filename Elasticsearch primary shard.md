@@ -1,3 +1,7 @@
+---
+title: "Elasticsearch primary shard"
+date: 2022-05-06T02:06
+---
 - Elasticsearch shard 是 [[Elasticsearch]] 最小的運作單元，每個 shard 持有一部分[[Elasticsearch index]] 的資料。
 - 每個 shard 都是 [[Lucene]] 的個體，自身便是一個完整搜索引擎（[[Search Engine]]）
 - shard 是資料的容器（[[Container]]），其存放著許多的 [[Elasticsearch document]]，而 Shard 會被配置在 [[Elasticsearch node]] 中，形成 [[Elasticsearch cluster]]

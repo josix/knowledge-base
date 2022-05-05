@@ -1,5 +1,7 @@
 ---
-tags: recsys, thesis
+title: "BPR (Bayesian Personalized Ranking)"
+date: 2022-05-06T02:05
+tags: #recsys #thesis
 ---
 
 # BPR (Bayesian Personalized Ranking)

@@ -1,4 +1,6 @@
 ---
+title: "Python-Dictionary-Evolution"
+date: 2022-05-06T02:10
 tags: python, hashmap
 ---
 # Python Dictionary 的演進（until 3.6）

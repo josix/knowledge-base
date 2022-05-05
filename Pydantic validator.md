@@ -1,3 +1,7 @@
+---
+title: "Pydantic validator"
+date: 2022-05-06T02:10
+---
 - 設定預設值給 `Optional` 欄位可以透過 validator:
 ```python
 class User(BaseModel):

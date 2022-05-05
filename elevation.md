@@ -1,3 +1,7 @@
+---
+title: "elevation"
+date: 2022-05-06T02:06
+---
 在 [[Material Design]] 中，Elevation 用於表達 Surface 的高度，以凸顯視覺層級和空間感。
 Measuring elevation
 	-  Elevation 是兩個 [[surface]] 在 z 軸上的相對距離，此距離的衡量方式為兩個 [[surface]] 在 z 軸上的 [[density independent pixel]] (dp)，而描繪 elvation 的方式是透過 [[shadow]]

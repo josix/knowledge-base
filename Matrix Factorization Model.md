@@ -1,5 +1,7 @@
 ---
-tags: recsys, thesis
+title: "Matrix Factorization Model"
+date: 2022-05-06T02:09
+tags: #recsys #thesis
 ---
 
 # Matrix Factorization Model
