@@ -3,7 +3,7 @@ title: "Python-Dictionary-Evolution"
 date: 2022-05-06T02:10
 tags: python, hashmap
 ---
-# Python Dictionary 的演進（until 3.6）
+## Python Dictionary 的演進（until 3.6）
 
 Python 中處處是有 dictionary 使用的痕跡，如 `globals()`、`locals()`、modules、class、instances 皆是使用 dictionary 達成，因此其查找的效能是相當重要的，此文講述了 python 2.7 以來 dictionary 所做的效能改善，及其所使用的技巧。
 
