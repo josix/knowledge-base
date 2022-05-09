@@ -3,7 +3,7 @@ title: "LaTex Cheat Sheet"
 date: 2022-05-06T02:08
 tags: #latex #cheatsheet
 ---
-# LaTex Cheat Sheet
+## LaTex Cheat Sheet
 
 ## Math Symbol
 
