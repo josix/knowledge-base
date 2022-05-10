@@ -1,6 +1,7 @@
 ---
 title: "Elasticsearch master node"
 date: 2022-05-06T02:06
+description: "Master node 負責管理 cluster 中的所有改變如 增刪 [[Elasticsearch index]]，增刪任何 [[Elasticsearch node]] 到 cluster 中..."
 ---
 - Master node 負責管理 cluster 中的所有改變如 增刪 [[Elasticsearch index]]，增刪任何 [[Elasticsearch node]] 到 cluster 中。
 - Master node 不會參與 [[Elasticsearch document]] 的增刪或搜尋，因此不會影響索引、檢索效能。

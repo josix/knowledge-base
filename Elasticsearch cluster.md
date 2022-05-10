@@ -1,6 +1,7 @@
 ---
 title: "Elasticsearch cluster"
 date: 2022-05-06T02:06
+description: "Elasticsearch cluster 由一個或多個有著相同 `cluster.name` 的 [[Elasticsearch node]] 組成，cluster 分散資料至這些 node 中..."
 ---
 - Elasticsearch cluster 由一個或多個有著相同 `cluster.name` 的 [[Elasticsearch node]] 組成，cluster 分散資料至這些 node 中。
  - 使用者可以存取 [[Elasticsearch cluster]] 中的任何 [[Elasticsearch node]] 包含 [[Elasticsearch master node]]，所有的 node 都知道 [[Elasticsearch document]] 的位置並可以直接轉發請求到該位置，並會再接收結果並傳送回客戶端。

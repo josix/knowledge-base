@@ -2,9 +2,8 @@
 title: "BPR (Bayesian Personalized Ranking)"
 date: 2022-05-06T02:05
 tags: #recsys #thesis
+description: "BPR （Bayesian Personalized Ranking）模型為 [[推薦系統]] 中 [[協同過濾]] 策略的模型之一，基於 [[Matrix Factorization Model]] 模型等 Latent factor model，BPR 模型以物品的排序為模型的訓練目標，而非只針對使用者、物品之間的評分進行訓練。在物品推薦任務中使用者只在乎系統推薦什麼樣的物品，針對符合使用者過往的排序進行訓練更加貼近使用情境。除此以外 BPR 的目標函式會基於最大化[[貝氏定理]]的事後機率（maximum posterior probability）來求得最佳排序所需的參數（user/item latent factor）..."
 ---
-
-## BPR (Bayesian Personalized Ranking)
 
 BPR （Bayesian Personalized Ranking）模型為 [[推薦系統]] 中 [[協同過濾]] 策略的模型之一，基於 [[Matrix Factorization Model]] 模型等 Latent factor model，BPR 模型以物品的排序為模型的訓練目標，而非只針對使用者、物品之間的評分進行訓練。在物品推薦任務中使用者只在乎系統推薦什麼樣的物品，針對符合使用者過往的排序進行訓練更加貼近使用情境。除此以外 BPR 的目標函式會基於最大化[[貝氏定理]]的事後機率（maximum posterior probability）來求得最佳排序所需的參數（user/item latent factor）。
 

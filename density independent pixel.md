@@ -1,6 +1,7 @@
 ---
 title: "density independent pixel"
 date: 2022-05-06T02:06
+description: "[[density independent pixel]] 又稱 dp（or dip），是 Android 設備介面尺寸單位，為了解決不同設備上 [[pixel density]] 不同會顯示不同大小的介面，而發明的統一尺寸單位..."
 ---
 [[density independent pixel]] 又稱 dp（or dip），是 Android 設備介面尺寸單位，為了解決不同設備上 [[pixel density]] 不同會顯示不同大小的介面，而發明的統一尺寸單位。
 

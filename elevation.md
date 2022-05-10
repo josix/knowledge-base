@@ -1,6 +1,7 @@
 ---
 title: "elevation"
 date: 2022-05-06T02:06
+description: "在 [[Material Design]] 中，Elevation 用於表達 Surface 的高度，以凸顯視覺層級和空間感..."
 ---
 在 [[Material Design]] 中，Elevation 用於表達 Surface 的高度，以凸顯視覺層級和空間感。
 Measuring elevation

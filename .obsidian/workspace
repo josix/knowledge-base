@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Working with Legacy Code.md",
+            "file": "成長心態.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Working with Legacy Code.md",
+                "file": "成長心態.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Working with Legacy Code.md"
+                "file": "成長心態.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Working with Legacy Code.md",
+                "file": "成長心態.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,15 +118,15 @@
   },
   "active": "55298c26669250e9",
   "lastOpenFiles": [
-    "Working with Legacy Code.md",
-    "terms query.md",
-    "term query.md",
-    "term level query.md",
+    "成長心態.md",
     "surface.md",
-    "StandardAnalyzer.md",
-    "shadow.md",
-    "scalable pixel.md",
-    "resting elevation.md",
-    "Python-Dictionary-Evolution.md"
+    "term level query.md",
+    "term query.md",
+    "terms query.md",
+    "Working with Legacy Code.md",
+    "一對一會議.md",
+    "人際網路.md",
+    "工程師心態.md",
+    "內容過濾.md"
   ]
 }
