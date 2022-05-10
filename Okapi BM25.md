@@ -5,8 +5,6 @@ tags: search, tech
 description: "Okapi BM25 是經典資訊檢索模型之一，也是 [[Elasticsearch]] [[Elasticsearch similarity]] 計算檢索[[相關性分數]]的預設演算法。BM 是 Best Matching 的縮寫，25 是其實驗參數配置所實驗的次數..."
 ---
 
-## Okapi BM25
-
 Okapi BM25 是經典資訊檢索模型之一，也是 [[Elasticsearch]] [[Elasticsearch similarity]] 計算檢索[[相關性分數]]的預設演算法。BM 是 Best Matching 的縮寫，25 是其實驗參數配置所實驗的次數。
 
 ## BM25 算法淺析
