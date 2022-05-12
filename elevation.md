@@ -7,7 +7,7 @@ description: "在 [[Material Design]] 中，Elevation 用於表達 Surface 的�
 Measuring elevation
 	-  Elevation 是兩個 [[surface]] 在 z 軸上的相對距離，此距離的衡量方式為兩個 [[surface]] 在 z 軸上的 [[density independent pixel]] (dp)，而描繪 elvation 的方式是透過 [[shadow]]
 - 描繪 elevation 的方式除了 shadow 外也可以透過填充不同的顏色或透明度來達到，然而卻不能表達各個 [[surface]] 間相對高度的程度
-	![[Pasted image 20210913130451.png]]（透過不同填充顏色表達不同高度）![[Pasted image 20210913130500.png]]（透過透明度表達不同高度）
+	![Pasted image 20210913130451.png](https://i.imgur.com/ft3vM82.png)（透過不同填充顏色表達不同高度）![Pasted image 20210913130500.png](https://i.imgur.com/QqCxMwE.png)（透過透明度表達不同高度）
 - Elevation System
 	- 在 [[Material Design]] 中所有的 [[components]]、[[surface]] 都有 elevation
 	- elevation 有三項功用：
@@ -31,7 +31,7 @@ Measuring elevation
 	- Parallax 利用不同速度達成視差（越高越近移動較慢，越遠移動較快）
 - elevation 可以用於表達內容的重要性，較高的內容可能代表他可以操作較低的內容（[[floating action button]]）、吸引注意力（[[dialog]]）或是較為重要因此需要較高的層級。反之若內容在同一個平面上則代表有相同的重要性
 - [Default elevation](https://material.io/design/environment/elevation.html#default-elevations)
-![[Pasted image 20210913141621.png]]
+![Pasted image 20210913141621.png](https://i.imgur.com/K63R96H.png)
 
 
 - Reference

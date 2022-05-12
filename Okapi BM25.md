@@ -34,7 +34,7 @@ $$
 - $f(q_i, D)$ 是計算 term $q_i$ 出現在文件 $D$ 中的次數，這邊意味著出現在文件中的 query term 越多，則該文件與 query 就越相關，則應該得到越多的分數。
 
 - 參數 $k_1$ 用於調整 $f(q_i, D)$ 的飽和程度（term frequency saturation），限制當 term 出現的次數高過一定值之後，每多出現一次其所貢獻的分數會趨近 0 ，使得 term frequency 所貢獻的分數會如漸近線：
-	![[Pasted image 20211123133535.png]]
+	![Pasted image 20211123133535.png](https://i.imgur.com/tmaNjlo.png)
 	$k_1$ 的數值會影響該曲線的坡度，當 $tf() > k_1$ 時坡度會越來越平緩，而當 $tf() \leqq k_1$ 坡度越陡，因此當隨著 term 出現的次數由少到多，其每次貢獻的分數將會越來越少而達到飽和。意味著當文件中出現太多的 query term 時並不會提升太多分數。而當 $k_1$ 設定為 0 時，則代表只考慮 IDF，Elasticsearch 中的 $k_1$ 預設為 1.2。
 
 ## 在 Elasticsearch 中的 Okapi BM25

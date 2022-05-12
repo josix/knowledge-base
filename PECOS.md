@@ -11,7 +11,7 @@ PECOS 模型框架包含三個階段：
 - Indexing Phase： PECOS 會將龐大的 labels 進行分群（semantic indexing），每一群都代表一個主題（Topic）。
 - Matching Phase： PECOS 針對給定的 input instance 找尋其符合的主題。透過此部可以大幅下降 output space 的大小
 - Rankiing Phase：在匹配到的主題當中對其中的 Label 基於其特徵以進行排序
-![[Pasted image 20210930222612.png]]
+![Pasted image 20210930222612.png](https://i.imgur.com/TPaJE5c.png)
 
 在 indexing phase 和 matching phase 可以有效減少長尾效應所導致的資料稀疏問題。
 ## Product Retrieval
