@@ -7,7 +7,15 @@ description: "在 [[Material Design]] 中，Elevation 用於表達 Surface 的�
 Measuring elevation
 	-  Elevation 是兩個 [[surface]] 在 z 軸上的相對距離，此距離的衡量方式為兩個 [[surface]] 在 z 軸上的 [[density independent pixel]] (dp)，而描繪 elvation 的方式是透過 [[shadow]]
 - 描繪 elevation 的方式除了 shadow 外也可以透過填充不同的顏色或透明度來達到，然而卻不能表達各個 [[surface]] 間相對高度的程度
-	![Pasted image 20210913130451.png](https://i.imgur.com/ft3vM82.png)（透過不同填充顏色表達不同高度）![Pasted image 20210913130500.png](https://i.imgur.com/QqCxMwE.png)（透過透明度表達不同高度）
+
+	![Pasted image 20210913130451.png](https://i.imgur.com/ft3vM82.png)
+	
+	（透過不同填充顏色表達不同高度）
+	
+	![Pasted image 20210913130500.png](https://i.imgur.com/QqCxMwE.png)
+	
+	（透過透明度表達不同高度）
+
 - Elevation System
 	- 在 [[Material Design]] 中所有的 [[components]]、[[surface]] 都有 elevation
 	- elevation 有三項功用：

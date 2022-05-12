@@ -19,6 +19,8 @@ description: "Elasticsearch shard 是 [[Elasticsearch]] 最小的運作單元，
 		}
 	}
 	```
+	
 	![Pasted image 20210911011816.png](https://i.imgur.com/Ivp0W7x.png)
+
 	由於 replica shard 未完全運作，因此 cluster 健康狀態是黃色的
 - 新建立索引（[[indexed]]）的 [[Elasticsearch document]] 會先被放置在 primary shard 之後再會備份至 [[Elasticsearch replica shard]]
