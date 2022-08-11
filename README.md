@@ -1,8 +1,8 @@
 # knowledge-base
 
 ```sh
-├── LaTex
-│   └── LaTex Cheat Sheet.md
+├── LaTeX
+│   └── LaTeX Cheat Sheet.md
 ├── data-science
 │   ├── Okapi BM25.md
 │   ├── PECOS.md
