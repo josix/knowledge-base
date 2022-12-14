@@ -1,6 +1,8 @@
 ---
 title: "dialog"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "design/material-design/dialog"
 description: "Dialog 用於提醒使用者執行特定任務，包含要求使用者進行選擇、確認資訊甚至執行是複雜的邏輯..."
 ---
 ## 什麼是對話框（Dialog）

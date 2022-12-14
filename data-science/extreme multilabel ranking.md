@@ -1,6 +1,8 @@
 ---
 title: "extreme multilabel ranking"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "data-science/extreme multilabel ranking"
 description: "Extreme Multilable Ranking (XMR) 是一個分類任務，其主要任務為對於給予的輸入為其從龐大的候選類別中選擇一個適合的標記，Label、Input Instance 的數量通常為萬至百萬級別。常見的 XMR 情境包含在針對文件進行分類將其分類到適合的主題，並標記該文件的主題、也常見於對於商品進行標記所屬類別，在動態的廣告投放上，每個商品對應著大量可選的投標關鍵字，而在 Question Answering 的情境中一個問題會有大量可能的回答段落..."
 ---
 ## 什麼是 Extreme Multilable Ranking

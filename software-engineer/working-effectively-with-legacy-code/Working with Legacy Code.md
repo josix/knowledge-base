@@ -1,6 +1,8 @@
 ---
 title: "Working with Legacy Code - 修改軟體"
 date: 2022-05-15T03:36
+dg-publish: true
+dg-permalink: "software-engineer/working-effectively-with-legacy-code/Working with Legacy Code"
 description: "軟體工程師開發時實際上只會針對軟體進行四種改動，增加功能、修改 bug、改善程式碼架構、改善程式碼效能..."
 ---
 ## 修改軟體

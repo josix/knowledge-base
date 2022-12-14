@@ -1,6 +1,8 @@
 ---
 title: "pytest.faq"
 date: 2022-05-06T02:10
+dg-publish: true
+dg-permalink: "software-engineer/tools/python/pytest/pytest.faq"
 ---
 ## FAQ
 1. Question. 如何在 [[pytest]] 中顯示 `print` 結果：

@@ -1,7 +1,9 @@
 ---
 title: "Matrix Factorization Model"
 date: 2022-05-06T02:09
-tags: #recsys #thesis
+dg-publish: true
+dg-permalink: "data-science/recsys/Matrix Factorization Model"
+tags: recsys, thesis
 description: "Matrix Factorization Model 又稱為矩陣分解法，為[[推薦系統]]中[[協同過濾]]策略的經典算法之一，其主要想法是基於使用者和商品的互動評分向量化使用者和商品的潛在因素，越高的評分代表該商品應該被推薦。模型可以由矩陣作為呈現，矩陣的ㄧ列代表一個使用者，矩陣的ㄧ行代表一個商品，矩陣的元素代表該使用者和商品的互動評分..."
 ---
 

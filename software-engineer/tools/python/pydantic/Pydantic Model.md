@@ -1,6 +1,8 @@
 ---
 title: "Pydantic Model"
 date: 2022-05-06T02:10
+dg-publish: true
+dg-permalink: "software-engineer/tools/python/pydantic/Pydantic Model"
 ---
 ## 什麼是 Model
 - [[Pydantic]] 中定義物件的主要方式是透過繼承 `BaseModel` 定義的 model 來實現。

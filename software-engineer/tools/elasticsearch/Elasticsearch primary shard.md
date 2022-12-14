@@ -1,6 +1,8 @@
 ---
 title: "Elasticsearch primary shard"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/Elasticsearch primary shard"
 description: "Elasticsearch shard 是 [[Elasticsearch]] 最小的運作單元，每個 shard 持有一部分[[Elasticsearch index]] 的資料..."
 ---
 - Elasticsearch shard 是 [[Elasticsearch]] 最小的運作單元，每個 shard 持有一部分[[Elasticsearch index]] 的資料。

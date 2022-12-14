@@ -1,6 +1,8 @@
 ---
 title: "Elasticsearch master node"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/Elasticsearch master node"
 description: "Master node 負責管理 cluster 中的所有改變如 增刪 [[Elasticsearch index]]，增刪任何 [[Elasticsearch node]] 到 cluster 中..."
 ---
 - Master node 負責管理 cluster 中的所有改變如 增刪 [[Elasticsearch index]]，增刪任何 [[Elasticsearch node]] 到 cluster 中。

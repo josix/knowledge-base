@@ -1,6 +1,8 @@
 ---
 title: "Coverage.py"
 date: 2022-05-06T02:05
+dg-publish: true
+dg-permalink: "software-engineer/tools/Coverage.py"
 description: "Coverage.py 是一個用於檢查測試覆蓋率的套件，他會監控程式碼，紀錄哪些部分有執行過、檢查哪些部分有測試過哪些未有測試..."
 ---
 ## 什麼是 Coverage.py

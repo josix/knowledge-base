@@ -1,6 +1,8 @@
 ---
 title: "PECOS"
 date: 2022-05-06T02:09
+dg-publish: true
+dg-permalink: "data-science/PECOS"
 description: "PECOS 是 Amazon 於 2021 年提出的模型框架，用於解決 [[extreme multilabel ranking]] 問題。其善用標記資料 output Space 具有一定的相關性（correlation），透過 semantic indexing 分群和有效率的匹配最適合的 cluster 方法有效降低了 output space 龐大所導致的長尾問題..."
 ---
 ## PECOS 是什麼

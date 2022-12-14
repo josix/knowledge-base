@@ -1,6 +1,8 @@
 ---
 title: "Filter Context"
 date: 2022-05-06T02:07
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/Filter Context"
 ---
 - 在 Filter Contexnt, [[Elasticsearch]] 會用於判斷哪些文件有符合過濾的子句，並不會特別計算分數，只會過濾掉文件。常用的 filter 會被 Elasticsearch cache 起來以提升效能。
 

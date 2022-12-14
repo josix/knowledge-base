@@ -1,6 +1,8 @@
 ---
 title: "terms query"
 date: 2022-05-06T02:11
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/terms query"
 ---
 - terms query 用於搜尋多個完全匹配的 term 時，另外也可以可以透過 [[bool query]] 達成
 - terms query 的 query 格式如下：

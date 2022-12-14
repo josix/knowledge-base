@@ -1,6 +1,8 @@
 ---
 title: "Elasticsearch replica shard"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/Elasticsearch replica shard"
 description: "Replica shard 是 [[Elasticsearch primary shard]] 的備份，用於提供多餘的資料備份以防硬體故障。除此以外也提供讀取資料的服務，例如 搜尋及取得 [[Elasticsearch document]]..."
 ---
 - Replica shard 是 [[Elasticsearch primary shard]] 的備份，用於提供多餘的資料備份以防硬體故障。除此以外也提供讀取資料的服務，例如 搜尋及取得 [[Elasticsearch document]]

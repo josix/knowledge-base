@@ -1,7 +1,7 @@
 ---
 title: "LaTeX Cheat Sheet"
 date: 2022-05-06T02:08
-tags: #latex #cheatsheet
+tags: LaTeX, cheatsheet
 ---
 ## LaTeX Cheat Sheet
 

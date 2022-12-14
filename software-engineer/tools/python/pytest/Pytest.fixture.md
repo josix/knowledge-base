@@ -1,6 +1,8 @@
 ---
 title: "Pytest.fixture"
 date: 2022-05-06T02:10
+dg-publish: true
+dg-permalink: "software-engineer/tools/python/pytest/Pytest.fixture"
 ---
 ## Pytest Fixtures 是什麼
 [[Pytest]] 的 Fixtures 是進行[[軟體測試]]籌備（Arrange）階段時，用於準備測試所需物件、環境的函式。在 Pytest 中，只需要在 test case 中直接加入已經定義好的 fixture name 作為參數，則可以直接使用該 fixture，test case 可以調用多個定義好的 fixture ，fixture	 也可以調用其他 fixture，因此 fixture 是相當彈性、可擴充並且是明確定義的（explicit）。

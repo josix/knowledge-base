@@ -1,6 +1,8 @@
 ---
 title: "Pydantic Model Config"
 date: 2022-05-06T02:10
+dg-publish: true
+dg-permalink: "software-engineer/tools/python/pydantic/Pydantic Model Config"
 ---
 - 可以透過定義在 [[Pydantic Model]] 或 [[Pydantic Dataclasses]] 中的 `Config` Class 控制 model 行為
 - 選項

@@ -1,6 +1,8 @@
 ---
 title: "Elasticsearch cluster"
 date: 2022-05-06T02:06
+dg-publish: true
+dg-permalink: "software-engineer/tools/elasticsearch/Elasticsearch cluster"
 description: "Elasticsearch cluster 由一個或多個有著相同 `cluster.name` 的 [[Elasticsearch node]] 組成，cluster 分散資料至這些 node 中..."
 ---
 - Elasticsearch cluster 由一個或多個有著相同 `cluster.name` 的 [[Elasticsearch node]] 組成，cluster 分散資料至這些 node 中。
