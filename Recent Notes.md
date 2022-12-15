@@ -1,6 +1,7 @@
 ---
 dg-home: true
 dg-publish: true
+dg-show-backlinks: false
 ---
 - [[睡眠]]
 - [[成長模式]]
