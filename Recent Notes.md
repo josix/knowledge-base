@@ -3,6 +3,8 @@ dg-home: true
 dg-publish: true
 dg-show-backlinks: false
 ---
+- [[Share-Nothing System]]
+- [[Lecture 1 - Modern OLAP Database Systems]]
 - [[睡眠]]
 - [[成長模式]]
 - [[聆聽]]
