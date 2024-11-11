@@ -1,5 +1,5 @@
 ---
-title: Lecture 1 - Modern OLAP Database Systems Notes
+title: CMU 15-721 Lecture 1 - Modern OLAP Database Systems Notes
 date: 2024-11-11T12:00
 dg-publish: true
 dg-permalink: software-engineer/cmu-advanced-database-systems/Lecture 1 - Modern OLAP Database Systems
@@ -20,7 +20,7 @@ Problem: 隨著數據分析的需求上升，資料庫的使用者已經不再�
 
   這個時候依然是以單體資料庫方式去管理資料的存放格式及存放方式。而相較於後續的 OLAP 設計架構，此時的系統設計為 [[Share-Nothing System]]。此時系統的使用方式多為 OLTP database 透過 ETL/CDC 的方式將資料複製到 Data Warehouse，然而 Data Warehouse 的 Schema 和運算資源依然需要事先定義準備。
 
-![Data Warehouse](https://josix.tw/img/data-warhouse.png)
+![Data Warehouse](https://josix.tw/img/data-warehouse.png)
 
 - 2010s: Share-Disks Engines:
 
