@@ -2,7 +2,7 @@
 title: CMU 15-721 Lecture 1 - Modern OLAP Database Systems Notes
 date: 2024-11-11T12:00
 dg-publish: true
-dg-permalink: software-engineer/cmu-advanced-database-systems/Lecture 1 - Modern OLAP Database Systems
+dg-permalink: software-engineer/cmu-advanced-database-systems/CMU 15-721 Lecture 1 - Modern OLAP Database Systems
 description: ""
 ---
 <!-- # 筆記本體 -->
