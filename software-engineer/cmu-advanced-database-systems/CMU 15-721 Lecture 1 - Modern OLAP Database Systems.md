@@ -36,10 +36,43 @@ Lakehouse System 的誕生得益於以下幾個情境：
 - 資料的存取和計算分離，使得資料交換和定義更加容易
 - 資料的需求不再只是結構化資料，而是半結構化和非結構化資料。
 
+## OLAP DBMS Components
+
+從 Monolithic Database 到 Lakehouse System，OLAP System 的架構逐漸拆分為多個獨立的服務，並且透過相互間的溝通和協作來完成 OLAP 的功能。這些 Component 主要分為：
+
+- System Catalog
+- Intermediate Representation
+- Query Optimizer
+- File Format/ Access Libraries
+- Execution Engines/ Fabrics
+
+## Architecture Overview
+
+![OLAP Architecture Overview](https://josix.tw/img/olap-architecture-overview.png)
+
+1. User -> Frontend: 使用者透過 Frontend 進行 Query 的發送
+  - Language Parser: Convert SQL to Intermediate Representation (Tokens)
+
+2. Frontend -> Planner: Frontend 將 Query 轉換成 Tokens 後送至 Planner 並產出 Pyhsical Plan
+  - Binder: Catalog 會提供 Planner 所需的 Metadata，而 Binder 會綁定 tokens 到對應的存在的 table
+  - Rewriter: rewrite the query to optimize the query
+  - Optimizer: generate the query plan based on cost model and statistics
+
+3. Scheduler: 將以 IR 表示的 Query Plan 參考 Catalog 提供的 Data Location 去 dispatch Query Plan 到對應 cluster 的 Execution Engine
+
+4. Execution Engine: 根據 Query Plan 分散處理執行 Query 並且將結果回傳給 User
+  - Execution Engine -> I/O Service: 由於需要從 Data Layer 取得資料，因此 Execution Engine 會像 I/O Service 發送 Request 並且取得資料，I/O Service 會根據 Catalog 提供的 Metadata 去 Storage 取得資料
+
+> Snowflake 的 Catalog 使用 FoundationDB 來存放 Metadata，以保證 ACID、高容錯、高效能的特性
+
+
 ## 延伸問題
 
 - 為什麼將選擇將資料存放於 Cloud Object Store？與直接存放於硬碟有什麼 trade-off？
   將 Storage Layer 和 Computation Layer 分離的好處是所有的存放不再唯有透過資料庫才可以存放，任何人都可以直接存放在 Cloud Object Store 並決定是否進一步被 OLAP 資料庫所使用，而存放格式也不不再局限於資料庫的設計和預先定義的 Schema 更貼合 semi-structure 資料的需求。
+
+- Catalog 在 OLAP System 中扮演相當重要的角色，如何避面 Single-Point-of-Failure 的問題？
+
 
 ## See Also
 
