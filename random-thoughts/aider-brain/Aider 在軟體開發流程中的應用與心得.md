@@ -1,15 +1,13 @@
 ---
 title: Aider 在軟體開發流程中的應用與心得
-date: 2024-12-16
+date: 2024-12-18T00:00:00
 dg-publish: true
-dg-permalink: random-thoughts/aider-brain
+dg-permalink: random-thoughts/aider-brain/how-to-use-aider-in-software-development
 description: "分享在實際軟體開發過程中使用 Aider 的經驗，探討其在程式碼理解、文件生成、測試撰寫等面向的應用，以及如何有效地將其整合進開發流程"
 tags:
   - llm
   - software-development
 ---
-
-# Aider 在軟體開發流程中的應用與心得
 
 ## 應用背景
 
