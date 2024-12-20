@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'random-thoughts/*.md'
+  workflow_dispatch:
 
 jobs:
   consolidate-thoughts:
@@ -37,11 +38,10 @@ jobs:
         env:
           AIDER_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          gd --name-only HEAD HEAD^ | xargs cat > all_thoughts.md
+          git diff --name-only HEAD HEAD^ | xargs cat > all_thoughts.md
           aider --auto-commits --sonnet --architect --read all_thoughts.md  --message "Consider the read-only files and identify if the thoughts are matched in the random-thoughts/aider-brain/*.md, for each identified topic: 1. If yes, consolidate and expand the thoughts into detailed content 2. If no, create a new file in the random-thoughts/aider-brain" --yes
-      - name: Clean up
-        run: |
           rm all_thoughts.md
+          
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
