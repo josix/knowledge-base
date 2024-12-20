@@ -12,7 +12,69 @@ tags:
   - backend
 ---
 
+---
+title: Kafka Architecture Deep Dive - From Components to Implementation Details
+date: 2024-12-21T00:00:00
+dg-publish: true
+dg-permalink: random-thoughts/kafka-architecture-deep-dive
+description: A comprehensive technical deep dive into Kafka's architecture, covering core components, implementation details, and the transition from ZooKeeper to KRaft. Includes detailed diagrams of consumer behavior, node management, and data flow patterns.
+tags:
+  - kafka
+  - architecture
+  - distributed-systems
+  - message-queue
+  - backend
+---
+
 # Kafka Architecture Deep Dive
+
+```mermaid
+graph TB
+  subgraph Kafka Cluster
+    subgraph ZooKeeper Ensemble
+      Z1[ZooKeeper 1]
+      Z2[ZooKeeper 2]
+      Z3[ZooKeeper 3]
+    end
+    
+    subgraph Brokers
+      B1[Broker 1]
+      B2[Broker 2]
+      B3[Broker 3]
+      C[Controller - one type of Broker]
+    end
+    
+    Z1 --- Z2
+    Z2 --- Z3
+    Z3 --- Z1
+    
+    Z1 --> B1
+    Z2 --> B2
+    Z3 --> B3
+    
+    Z1 --> C
+    C --> B1
+    C --> B2
+    C --> B3
+  end
+  
+  P1[Producer 1] --> B1
+  P2[Producer 2] --> B2
+  
+  B1 --> Con1[Consumer 1]
+  B2 --> Con2[Consumer 2]
+  B3 --> Con3[Consumer 3]
+  
+  classDef zk fill:#e1d5e7,stroke:#9673a6
+  classDef broker fill:#dae8fc,stroke:#6c8ebf
+  classDef client fill:#d5e8d4,stroke:#82b366
+  classDef controller fill:#fff2cc,stroke:#d6b656
+  
+  class Z1,Z2,Z3 zk
+  class B1,B2,B3 broker
+  class P1,P2,Con1,Con2,Con3 client
+  class C controller
+```
 
 ## Core Architecture Components
 
