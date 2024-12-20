@@ -1,0 +1,60 @@
+name: Thought Consolidation
+
+on:
+  push:
+    paths:
+      - 'random-thoughts/*.md'
+
+jobs:
+  consolidate-thoughts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed for pushing changes
+      pull-requests: write  # Needed for creating pull requests
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Get full history for comparing changes
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pipx 
+          pipx install aider-chat
+          
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          
+      - name: Process thoughts
+        env:
+          AIDER_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          gd --name-only HEAD HEAD^ | xargs cat > all_thoughts.md
+          aider --auto-commits --sonnet --architect --read all_thoughts.md  --message "Consider the read-only files and identify if the thoughts are matched in the random-thoughts/aider-brain/*.md, for each identified topic: 1. If yes, consolidate and expand the thoughts into detailed content 2. If no, create a new file in the random-thoughts/aider-brain" --yes
+      - name: Clean up
+        run: |
+          rm all_thoughts.md
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'Consolidate thoughts from aider itself'
+          branch: i-am-aider
+          title: 'Aider: Consolidate thoughts'
+          body: |
+            Aider has consolidated the thoughts from the random-thoughts/aider-brain/*.md files and the latest commit.
+          labels: |
+            automation
+
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
