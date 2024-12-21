@@ -12,20 +12,6 @@ tags:
   - backend
 ---
 
----
-title: Kafka Architecture Deep Dive - From Components to Implementation Details
-date: 2024-12-21T00:00:00
-dg-publish: true
-dg-permalink: random-thoughts/kafka-architecture-deep-dive
-description: A comprehensive technical deep dive into Kafka's architecture, covering core components, implementation details, and the transition from ZooKeeper to KRaft. Includes detailed diagrams of consumer behavior, node management, and data flow patterns.
-tags:
-  - kafka
-  - architecture
-  - distributed-systems
-  - message-queue
-  - backend
----
-
 # Kafka Architecture Deep Dive
 
 ```mermaid
