@@ -39,7 +39,7 @@ jobs:
           AIDER_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           git diff --name-only HEAD HEAD^ | xargs cat > all_thoughts.md
-          aider --auto-commits --sonnet --architect --read all_thoughts.md  --message "Consider the read-only files and identify if the thoughts are matched in the random-thoughts/aider-brain/*.md, for each identified topic: 1. If yes, consolidate and expand the thoughts into detailed content 2. If no, create a new file in the random-thoughts/aider-brain" --yes
+          aider --auto-commits --sonnet --architect --read all_thoughts.md  --message "consolidate how many topics in the read-only files, then identify each topic if has matched in the random-thoughts/aider-brain/*.md, for each identified topic: 1. If matched, consolidate and expand the thoughts into detailed content in the matched file 2. If not matched, create a new file in the random-thoughts/aider-brain in a structure of descriptive paragraphs, with 7 to 15 sentences in one paragraph to express your ideas with style like documents in `Permanent/*.md` instead of bullet points"  --yes
           rm all_thoughts.md
           
       - name: Create Pull Request
