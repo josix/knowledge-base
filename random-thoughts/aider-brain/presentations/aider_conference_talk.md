@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-title: Aider in Practice: From Code Understanding to Continuous Integration
+title: "Aider in Practice: From Code Understanding to Continuous Integration"
 description: A deep dive into practical applications of Aider for modern software development
 ---
 
