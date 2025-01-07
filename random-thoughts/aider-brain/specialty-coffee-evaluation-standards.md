@@ -1,3 +1,17 @@
+---
+title: "Specialty Coffee Evaluation Standards: BH Protocol and Sensory Analysis"
+date: 2025-01-02T00:03
+dg-publish: true
+dg-permalink: "specialty-coffee-evaluation-standards"
+description: "Comprehensive guide to specialty coffee evaluation, including detailed BH cupping protocols, sensory evaluation criteria, and professional tasting methodology for quality assessment"
+tags:
+  - coffee
+  - cupping
+  - quality-control
+  - sensory-evaluation
+  - specialty-coffee
+  - brewing-standards
+---
 # Specialty Coffee Evaluation Standards
 
 ## Cupping Protocol (BH Standards)
